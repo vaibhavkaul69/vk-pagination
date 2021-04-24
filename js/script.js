@@ -58,7 +58,7 @@ class PaginationByVaibhav {
 	}
 	showPaginationContent(number) {
 		const activeArray = this.paginateObject[number];
-		console.log(activeArray);
+
 		//Clear the paginationContainer after every button click and add new content
 		this.paginationContainer.innerHTML = "";
 		for (let i = 0; i < activeArray.length; i++) {
